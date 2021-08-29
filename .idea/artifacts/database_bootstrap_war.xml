@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="database-bootstrap:war">
+    <output-path>$PROJECT_DIR$/database-bootstrap/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>database-bootstrap</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="database-bootstrap-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="database-bootstrap:war exploded" />
+    </root>
+  </artifact>
+</component>
